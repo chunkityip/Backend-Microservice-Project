@@ -1,16 +1,14 @@
 package service;
 
-import com.programmingtechie.inventoryservice.dto.InventoryResponse;
-import com.programmingtechie.inventoryservice.model.Inventory;
-import com.programmingtechie.inventoryservice.repository.InventoryRepository;
-import com.programmingtechie.inventoryservice.service.InventoryService;
+import com.example.inventoryservice.dto.InventoryResponse;
+import com.example.inventoryservice.model.Inventory;
+import com.example.inventoryservice.repository.InventoryRepository;
+import com.example.inventoryservice.service.InventoryService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestEntityManager;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 
